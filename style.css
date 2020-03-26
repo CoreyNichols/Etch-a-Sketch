@@ -1,0 +1,38 @@
+:root {
+    --length: 32;
+}
+html {
+    padding: 0px;
+    margin: 1rem auto;
+}
+
+h1{
+    width: 90vw;
+    margin:auto;
+    text-align: center;
+}
+#controls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:auto;
+    width: 90vw;
+    
+    
+}
+
+#sketchPad {
+    display: grid;
+    grid-template-columns: repeat(var(--length), 1fr);
+    grid-template-rows: repeat(var(--length), 1fr);
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+}
+
+.box {
+    height: auto;
+    width: auto;
+    border: 1pt solid black;
+    background-color: white;
+   
+}
